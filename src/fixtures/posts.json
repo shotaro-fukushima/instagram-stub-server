@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "username": "tanaka_yuki",
+        "avatarUrl": "https://picsum.photos/seed/tanaka/200/200",
+        "imageUrl": "https://picsum.photos/seed/post1/600/600",
+        "likeCount": 42,
+        "caption": "今日の空がきれいだった",
+        "isLiked": false
+    },
+    {
+        "id": 2,
+        "username": "sato_kenji",
+        "avatarUrl": "https://picsum.photos/seed/sato/200/200",
+        "imageUrl": "https://picsum.photos/seed/post2/600/600",
+        "likeCount": 128,
+        "caption": "新しいカフェ見つけた ☕️",
+        "isLiked": true
+    },
+    {
+        "id": 3,
+        "username": "suzuki_mana",
+        "avatarUrl": "https://picsum.photos/seed/suzuki/200/200",
+        "imageUrl": "https://picsum.photos/seed/post3/600/600",
+        "likeCount": 89,
+        "caption": "週末のハイキング",
+        "isLiked": false
+    },
+    {
+        "id": 4,
+        "username": "yamada_taro",
+        "avatarUrl": "https://picsum.photos/seed/yamada/200/200",
+        "imageUrl": "https://picsum.photos/seed/post4/600/600",
+        "likeCount": 256,
+        "caption": "プログラミング楽しい 💻",
+        "isLiked": false
+    },
+    {
+        "id": 5,
+        "username": "ito_sakura",
+        "avatarUrl": "https://picsum.photos/seed/ito/200/200",
+        "imageUrl": "https://picsum.photos/seed/post5/600/600",
+        "likeCount": 73,
+        "caption": "ランチ🍝",
+        "isLiked": true
+    }
+]
