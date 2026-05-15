@@ -1,0 +1,13 @@
+imageDelay: 3000  # 画像プロキシの遅延（ミリ秒）。0で即座に返す
+
+routes:
+  /posts:
+    GET:
+      statusCode: 200
+      delay: 300
+      fixture: posts.json
+  /posts/:id:
+    GET:
+      statusCode: 200
+      delay: 0
+      fixture: posts.json  # IDフィルタはコード側で処理
