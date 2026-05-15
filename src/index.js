@@ -1,17 +1,17 @@
 import Express from 'express'
 import Path from 'path'
-import AppServer from './routes'
+import StubRouter from './stub'
 
 const app = new Express()
 
 app.use(Express.json())
 app.use(Express.urlencoded({ extended: true }))
 
-// 画像の静的配信: /images/xxx.jpg でアクセス可能
+// 画像の静的配信
 app.use('/images', Express.static(Path.join(__dirname, '..', 'resources', 'images')))
 
-// ルーティング
-app.use('/', AppServer)
+// YAMLベースのスタブルーティング
+app.use('/', StubRouter)
 
 const port = process.env.PORT || 3000
 app.listen(port, () => {
